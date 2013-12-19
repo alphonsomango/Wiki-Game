@@ -102,7 +102,7 @@ def main(argv):
 		
 		i=i+1
 
-	if numArgument == 0 or numArgument > 2: #if no links or more than two then print help
+	if numArgument != 2: #if no links or more than two then print help
 		printHelp()
 		sys.exit(0)
 		
