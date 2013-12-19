@@ -5,7 +5,6 @@ Wikipedia Game
 
 =========
 
-project has two parts:
-1) HTML parser - find relavent links on page
-2) Main 	i) Keeps track of: path, and end target
-		ii) Opens and closes pages, follows links, etc.
+- project uses beautiful soup to find links in start file
+- follows these links in an attempt to find the end goal
+- if end goal not found, start again. 
